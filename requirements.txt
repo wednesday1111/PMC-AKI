@@ -9,6 +9,6 @@ pickleshare==0.7.5
 pillow==8.4.0
 openpyxl==3.0.9
 streamlit==1.25.0
-
+scikit-learn==0.21.3
 
 
