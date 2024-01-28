@@ -19,6 +19,7 @@ import shap
 import pickle
 import xgboost as xgb
 from xgboost import XGBClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 # load the saved model
 import plotly.figure_factory as ff
 import matplotlib.pyplot as plt
