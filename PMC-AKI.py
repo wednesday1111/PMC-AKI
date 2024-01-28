@@ -85,7 +85,7 @@ outputdf = user_input_features()
 
 
 #online delete position
-with open('XGB20231227_.pkl', 'rb') as f:
+with open('XGB20231227_apply.pkl', 'rb') as f:
     catmodel = pickle.load(f)
 
 outputdf_ = outputdf
