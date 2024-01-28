@@ -85,7 +85,7 @@ outputdf = user_input_features()
 
 
 #online delete position
-with open('D:/jupyter-notebook/Apply/fraud-detection-main/XGB20231227_.pkl', 'rb') as f:
+with open('XGB20231227_.pkl', 'rb') as f:
     catmodel = pickle.load(f)
 
 outputdf_ = outputdf
